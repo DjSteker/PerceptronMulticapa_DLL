@@ -2175,6 +2175,14 @@ Public Class Form1
 
     End Sub
 
+    Private Sub Button_DetenerNeurona_Click(sender As Object, e As EventArgs) Handles Button_DetenerNeurona.Click
+        Try
+            result = 0
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
 End Class
 
 
