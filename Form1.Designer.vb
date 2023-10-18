@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
@@ -22,10 +22,10 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim ChartArea2 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend2 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series3 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim Series4 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea3 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend3 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series5 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim Series6 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Button_Test = New System.Windows.Forms.Button()
@@ -186,7 +186,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(150, 447)
+        Me.Button1.Location = New System.Drawing.Point(295, 476)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(65, 23)
         Me.Button1.TabIndex = 121
@@ -204,7 +204,7 @@ Partial Class Form1
         '
         'Button_Entrenamiento
         '
-        Me.Button_Entrenamiento.Location = New System.Drawing.Point(7, 447)
+        Me.Button_Entrenamiento.Location = New System.Drawing.Point(152, 476)
         Me.Button_Entrenamiento.Name = "Button_Entrenamiento"
         Me.Button_Entrenamiento.Size = New System.Drawing.Size(137, 23)
         Me.Button_Entrenamiento.TabIndex = 119
@@ -475,20 +475,20 @@ Partial Class Form1
         '
         'Chart1
         '
-        ChartArea2.Name = "ChartArea1"
-        Me.Chart1.ChartAreas.Add(ChartArea2)
-        Legend2.Name = "Legend1"
-        Me.Chart1.Legends.Add(Legend2)
+        ChartArea3.Name = "ChartArea1"
+        Me.Chart1.ChartAreas.Add(ChartArea3)
+        Legend3.Name = "Legend1"
+        Me.Chart1.Legends.Add(Legend3)
         Me.Chart1.Location = New System.Drawing.Point(4, 7)
         Me.Chart1.Name = "Chart1"
-        Series3.ChartArea = "ChartArea1"
-        Series3.Legend = "Legend1"
-        Series3.Name = "Series_Prediccion"
-        Series4.ChartArea = "ChartArea1"
-        Series4.Legend = "Legend1"
-        Series4.Name = "Series2"
-        Me.Chart1.Series.Add(Series3)
-        Me.Chart1.Series.Add(Series4)
+        Series5.ChartArea = "ChartArea1"
+        Series5.Legend = "Legend1"
+        Series5.Name = "Series_Prediccion"
+        Series6.ChartArea = "ChartArea1"
+        Series6.Legend = "Legend1"
+        Series6.Name = "Series2"
+        Me.Chart1.Series.Add(Series5)
+        Me.Chart1.Series.Add(Series6)
         Me.Chart1.Size = New System.Drawing.Size(704, 300)
         Me.Chart1.TabIndex = 140
         Me.Chart1.Text = "Chart1"
@@ -728,7 +728,7 @@ Partial Class Form1
         '
         'Button_CargarDatosCSV
         '
-        Me.Button_CargarDatosCSV.Location = New System.Drawing.Point(783, 349)
+        Me.Button_CargarDatosCSV.Location = New System.Drawing.Point(783, 311)
         Me.Button_CargarDatosCSV.Name = "Button_CargarDatosCSV"
         Me.Button_CargarDatosCSV.Size = New System.Drawing.Size(206, 36)
         Me.Button_CargarDatosCSV.TabIndex = 192
@@ -746,9 +746,9 @@ Partial Class Form1
         '
         'Button_EntrenamientoCSV
         '
-        Me.Button_EntrenamientoCSV.Location = New System.Drawing.Point(783, 391)
+        Me.Button_EntrenamientoCSV.Location = New System.Drawing.Point(783, 353)
         Me.Button_EntrenamientoCSV.Name = "Button_EntrenamientoCSV"
-        Me.Button_EntrenamientoCSV.Size = New System.Drawing.Size(206, 23)
+        Me.Button_EntrenamientoCSV.Size = New System.Drawing.Size(206, 61)
         Me.Button_EntrenamientoCSV.TabIndex = 191
         Me.Button_EntrenamientoCSV.Text = "Entrenamiento CSV"
         Me.Button_EntrenamientoCSV.UseVisualStyleBackColor = True
@@ -780,7 +780,7 @@ Partial Class Form1
         '
         'TrackBar_TestCSV
         '
-        Me.TrackBar_TestCSV.Location = New System.Drawing.Point(783, 298)
+        Me.TrackBar_TestCSV.Location = New System.Drawing.Point(783, 259)
         Me.TrackBar_TestCSV.Name = "TrackBar_TestCSV"
         Me.TrackBar_TestCSV.Size = New System.Drawing.Size(206, 45)
         Me.TrackBar_TestCSV.TabIndex = 197
@@ -788,7 +788,7 @@ Partial Class Form1
         'ComboBox_Entrenamiento
         '
         Me.ComboBox_Entrenamiento.FormattingEnabled = True
-        Me.ComboBox_Entrenamiento.Location = New System.Drawing.Point(783, 262)
+        Me.ComboBox_Entrenamiento.Location = New System.Drawing.Point(783, 223)
         Me.ComboBox_Entrenamiento.Name = "ComboBox_Entrenamiento"
         Me.ComboBox_Entrenamiento.Size = New System.Drawing.Size(206, 21)
         Me.ComboBox_Entrenamiento.TabIndex = 198
