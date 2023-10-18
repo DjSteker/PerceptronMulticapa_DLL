@@ -3,7 +3,7 @@ DLL Perceptrón Multicapa
 
 
 
-
+...
 
 Namespace Neurons
 
