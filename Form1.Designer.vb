@@ -22,10 +22,10 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim ChartArea1 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend1 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series1 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim Series2 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea3 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend3 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series5 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim Series6 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Button_Test = New System.Windows.Forms.Button()
@@ -203,7 +203,7 @@ Partial Class Form1
         'Label_LearningRate
         '
         Me.Label_LearningRate.AutoSize = True
-        Me.Label_LearningRate.Location = New System.Drawing.Point(7, 132)
+        Me.Label_LearningRate.Location = New System.Drawing.Point(23, 110)
         Me.Label_LearningRate.Name = "Label_LearningRate"
         Me.Label_LearningRate.Size = New System.Drawing.Size(166, 13)
         Me.Label_LearningRate.TabIndex = 118
@@ -211,7 +211,7 @@ Partial Class Form1
         '
         'Button_QuitarCapa
         '
-        Me.Button_QuitarCapa.Location = New System.Drawing.Point(330, 41)
+        Me.Button_QuitarCapa.Location = New System.Drawing.Point(348, 45)
         Me.Button_QuitarCapa.Name = "Button_QuitarCapa"
         Me.Button_QuitarCapa.Size = New System.Drawing.Size(42, 20)
         Me.Button_QuitarCapa.TabIndex = 117
@@ -223,14 +223,14 @@ Partial Class Form1
         Me.ListBox_Neuronas.FormattingEnabled = True
         Me.ListBox_Neuronas.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.ListBox_Neuronas.Items.AddRange(New Object() {"120"})
-        Me.ListBox_Neuronas.Location = New System.Drawing.Point(224, 15)
+        Me.ListBox_Neuronas.Location = New System.Drawing.Point(242, 19)
         Me.ListBox_Neuronas.Name = "ListBox_Neuronas"
         Me.ListBox_Neuronas.Size = New System.Drawing.Size(100, 56)
         Me.ListBox_Neuronas.TabIndex = 116
         '
         'Button_AñadirCapa
         '
-        Me.Button_AñadirCapa.Location = New System.Drawing.Point(330, 15)
+        Me.Button_AñadirCapa.Location = New System.Drawing.Point(348, 19)
         Me.Button_AñadirCapa.Name = "Button_AñadirCapa"
         Me.Button_AñadirCapa.Size = New System.Drawing.Size(42, 20)
         Me.Button_AñadirCapa.TabIndex = 115
@@ -297,7 +297,7 @@ Partial Class Form1
         '
         'TextBox_Capas
         '
-        Me.TextBox_Capas.Location = New System.Drawing.Point(224, 77)
+        Me.TextBox_Capas.Location = New System.Drawing.Point(242, 81)
         Me.TextBox_Capas.Name = "TextBox_Capas"
         Me.TextBox_Capas.Size = New System.Drawing.Size(100, 20)
         Me.TextBox_Capas.TabIndex = 96
@@ -322,7 +322,7 @@ Partial Class Form1
         '
         'TextBox_AlfaEntrenamiento
         '
-        Me.TextBox_AlfaEntrenamiento.Location = New System.Drawing.Point(179, 128)
+        Me.TextBox_AlfaEntrenamiento.Location = New System.Drawing.Point(195, 106)
         Me.TextBox_AlfaEntrenamiento.Name = "TextBox_AlfaEntrenamiento"
         Me.TextBox_AlfaEntrenamiento.Size = New System.Drawing.Size(100, 20)
         Me.TextBox_AlfaEntrenamiento.TabIndex = 93
@@ -340,7 +340,7 @@ Partial Class Form1
         '
         'TextBox_Salidas
         '
-        Me.TextBox_Salidas.Location = New System.Drawing.Point(330, 103)
+        Me.TextBox_Salidas.Location = New System.Drawing.Point(348, 81)
         Me.TextBox_Salidas.Name = "TextBox_Salidas"
         Me.TextBox_Salidas.Size = New System.Drawing.Size(100, 20)
         Me.TextBox_Salidas.TabIndex = 92
@@ -356,7 +356,7 @@ Partial Class Form1
         '
         'TextBox_Neuronas
         '
-        Me.TextBox_Neuronas.Location = New System.Drawing.Point(224, 103)
+        Me.TextBox_Neuronas.Location = New System.Drawing.Point(138, 19)
         Me.TextBox_Neuronas.Name = "TextBox_Neuronas"
         Me.TextBox_Neuronas.Size = New System.Drawing.Size(100, 20)
         Me.TextBox_Neuronas.TabIndex = 91
@@ -374,7 +374,7 @@ Partial Class Form1
         '
         'TextBox_EpocasEntrenamiento
         '
-        Me.TextBox_EpocasEntrenamiento.Location = New System.Drawing.Point(179, 154)
+        Me.TextBox_EpocasEntrenamiento.Location = New System.Drawing.Point(195, 132)
         Me.TextBox_EpocasEntrenamiento.Name = "TextBox_EpocasEntrenamiento"
         Me.TextBox_EpocasEntrenamiento.Size = New System.Drawing.Size(100, 20)
         Me.TextBox_EpocasEntrenamiento.TabIndex = 90
@@ -391,7 +391,7 @@ Partial Class Form1
         'Label_EpocasEntrenamiento
         '
         Me.Label_EpocasEntrenamiento.AutoSize = True
-        Me.Label_EpocasEntrenamiento.Location = New System.Drawing.Point(45, 157)
+        Me.Label_EpocasEntrenamiento.Location = New System.Drawing.Point(61, 135)
         Me.Label_EpocasEntrenamiento.Name = "Label_EpocasEntrenamiento"
         Me.Label_EpocasEntrenamiento.Size = New System.Drawing.Size(128, 13)
         Me.Label_EpocasEntrenamiento.TabIndex = 89
@@ -399,7 +399,7 @@ Partial Class Form1
         '
         'TextBox_FactorActivacion
         '
-        Me.TextBox_FactorActivacion.Location = New System.Drawing.Point(391, 129)
+        Me.TextBox_FactorActivacion.Location = New System.Drawing.Point(407, 107)
         Me.TextBox_FactorActivacion.Name = "TextBox_FactorActivacion"
         Me.TextBox_FactorActivacion.Size = New System.Drawing.Size(100, 20)
         Me.TextBox_FactorActivacion.TabIndex = 88
@@ -408,7 +408,7 @@ Partial Class Form1
         'Label_FactorActivacion
         '
         Me.Label_FactorActivacion.AutoSize = True
-        Me.Label_FactorActivacion.Location = New System.Drawing.Point(296, 132)
+        Me.Label_FactorActivacion.Location = New System.Drawing.Point(312, 110)
         Me.Label_FactorActivacion.Name = "Label_FactorActivacion"
         Me.Label_FactorActivacion.Size = New System.Drawing.Size(89, 13)
         Me.Label_FactorActivacion.TabIndex = 87
@@ -426,7 +426,7 @@ Partial Class Form1
         '
         'TextBox_ConexionesNumero
         '
-        Me.TextBox_ConexionesNumero.Location = New System.Drawing.Point(120, 103)
+        Me.TextBox_ConexionesNumero.Location = New System.Drawing.Point(136, 81)
         Me.TextBox_ConexionesNumero.Name = "TextBox_ConexionesNumero"
         Me.TextBox_ConexionesNumero.Size = New System.Drawing.Size(100, 20)
         Me.TextBox_ConexionesNumero.TabIndex = 86
@@ -442,7 +442,7 @@ Partial Class Form1
         '
         'Button_GenerarRed
         '
-        Me.Button_GenerarRed.Location = New System.Drawing.Point(8, 103)
+        Me.Button_GenerarRed.Location = New System.Drawing.Point(24, 81)
         Me.Button_GenerarRed.Name = "Button_GenerarRed"
         Me.Button_GenerarRed.Size = New System.Drawing.Size(101, 23)
         Me.Button_GenerarRed.TabIndex = 64
@@ -464,20 +464,20 @@ Partial Class Form1
         '
         'Chart1
         '
-        ChartArea1.Name = "ChartArea1"
-        Me.Chart1.ChartAreas.Add(ChartArea1)
-        Legend1.Name = "Legend1"
-        Me.Chart1.Legends.Add(Legend1)
+        ChartArea3.Name = "ChartArea1"
+        Me.Chart1.ChartAreas.Add(ChartArea3)
+        Legend3.Name = "Legend1"
+        Me.Chart1.Legends.Add(Legend3)
         Me.Chart1.Location = New System.Drawing.Point(4, 7)
         Me.Chart1.Name = "Chart1"
-        Series1.ChartArea = "ChartArea1"
-        Series1.Legend = "Legend1"
-        Series1.Name = "Series_Prediccion"
-        Series2.ChartArea = "ChartArea1"
-        Series2.Legend = "Legend1"
-        Series2.Name = "Series2"
-        Me.Chart1.Series.Add(Series1)
-        Me.Chart1.Series.Add(Series2)
+        Series5.ChartArea = "ChartArea1"
+        Series5.Legend = "Legend1"
+        Series5.Name = "Series_Prediccion"
+        Series6.ChartArea = "ChartArea1"
+        Series6.Legend = "Legend1"
+        Series6.Name = "Series2"
+        Me.Chart1.Series.Add(Series5)
+        Me.Chart1.Series.Add(Series6)
         Me.Chart1.Size = New System.Drawing.Size(704, 300)
         Me.Chart1.TabIndex = 140
         Me.Chart1.Text = "Chart1"
@@ -826,7 +826,7 @@ Partial Class Form1
         Me.GroupBox_GenerarRed.Controls.Add(Me.TextBox_Capas)
         Me.GroupBox_GenerarRed.Location = New System.Drawing.Point(180, 289)
         Me.GroupBox_GenerarRed.Name = "GroupBox_GenerarRed"
-        Me.GroupBox_GenerarRed.Size = New System.Drawing.Size(528, 183)
+        Me.GroupBox_GenerarRed.Size = New System.Drawing.Size(528, 163)
         Me.GroupBox_GenerarRed.TabIndex = 124
         Me.GroupBox_GenerarRed.TabStop = False
         Me.GroupBox_GenerarRed.Text = "Generar red"
