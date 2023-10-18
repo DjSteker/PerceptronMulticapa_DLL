@@ -2,6 +2,9 @@
 DLL Perceptrón Multicapa
 
 
+
+
+
 Namespace Neurons
 
   Public Class MultilayerPerceptron
